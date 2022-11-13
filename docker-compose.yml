@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  mysql:
+    container_name: 'mysql'
+    image: mysql:8.0.30
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: '231850793'
+    ports:
+      - '3307:3306'
+    expose:
+      - '3306'
+  app:
+    container_name: 'app'
+    build:
+      dockerfile: Dockerfile
+    image: my_app
+    ports:
+      - '8080:8080'

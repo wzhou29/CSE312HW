@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CSE312:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSE312_jar</output-path>
+    <root id="archive" name="CSE312.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="CSE312" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.15/commons-codec-1.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
